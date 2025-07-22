@@ -62,7 +62,7 @@ header .logo img{
 /* main */
 
 
-main{
+main {
 
 max-width: 1200px;
 margin: 0 auto;
@@ -79,7 +79,7 @@ padding-bottom: 50px;
 }
 
 .product-card{
-    width: 300px;
+    width: 380px;
     position: relative;
 
 }
