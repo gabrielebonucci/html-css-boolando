@@ -6,3 +6,50 @@
     box-sizing: border-box;
 }
 
+header {
+
+    background-color: #FE6900;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+header nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 30px;
+
+}
+
+.menu-links, .user-actions {
+    flex: 1;
+}
+
+.user-actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+header .logo img{
+    height: 23px;
+    display: block;
+}
+
