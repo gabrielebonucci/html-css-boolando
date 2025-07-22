@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* header */
+
 header {
 
     background-color: #FE6900;
@@ -53,3 +55,35 @@ header .logo img{
     display: block;
 }
 
+/* main */
+
+
+main{
+
+max-width: 1200px;
+margin: 0 auto;
+padding-top: 100px;
+padding-bottom: 50px;
+
+}
+
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card{
+    width: 300px;
+    position: relative;
+
+}
+
+.product-image{
+    position: relative;
+}
+
+.product-image img{
+    width: 100%;
+}
