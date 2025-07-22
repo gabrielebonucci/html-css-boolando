@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* header */
 
@@ -97,11 +101,50 @@ padding-bottom: 50px;
     opacity: 0;
 }
 
-   .product-card:hover .hover-img{
+.product-card:hover .hover-img{
 
     opacity: 1; /*Mostra l'immagine di hover quando il mouse è sulla card */ 
     
    }
 
 
-   /* elementi posizioni nell'immagine */
+   /* elementi posizionati nell'immagine */
+
+   .heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+
+   }
+
+   .inside-info{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    gap: 5px;
+   }
+
+
+   .discount, .sustainability{
+    color: white;
+    padding: 5px 10px;
+    font-weight:bold;
+    font-size: 14px;
+
+
+   }
+   
+   .discount{
+    background-color: red;
+
+   }
+
+   .sustainability{
+    background-color: green;
+   }
+
+
