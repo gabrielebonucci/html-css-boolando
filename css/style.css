@@ -90,3 +90,18 @@ padding-bottom: 50px;
 
 /* hover */
 
+.hover-img{
+    position: absolute; /* Sovrappone l'immagine hover a quella di default */
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+   .product-card:hover .hover-img{
+
+    opacity: 1; /*Mostra l'immagine di hover quando il mouse è sulla card */ 
+    
+   }
+
+
+   /* elementi posizioni nell'immagine */
